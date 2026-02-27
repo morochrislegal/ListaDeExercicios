@@ -33,7 +33,12 @@ console.log(`o novo valor é ${novovalor}`)
 
 //criar um programa para verificar se eu número é par ou impar
 if (num % 2 === 0) {
-    console.log(`O número ${num} é Par.`);
+    console.log(`O número ${num} é Par`);
 } else {
-    console.log(`O número ${num} é Ímpar.`);
+    console.log(`O número ${num} é Ímpar`);
 }
+let nota1 = 9;
+let nota2 = 8;
+let media = (nota1 + nota2) / 2;
+
+console.log(`a média é ${media} nota1 é ${nota1} e nota2 é ${nota2}`)
